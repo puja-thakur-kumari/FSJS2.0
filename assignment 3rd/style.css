@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body::-webkit-scrollbar{
+    display: none;
+    /* it is used to hide scrolling part */
+}
+img[src="/assignment 3rd/Logo.png"]{
+    width: 85px;
+    position: relative;
+    top: 30px;
+    right: 28px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    right: 100px;
+    width: auto;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-family: orbitron;
+    font-weight: 650;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+li:nth-child(1){
+    border-bottom: 2px solid #000000;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    bottom: 5px;
+}
+
+li:nth-child(2){
+    position: relative;
+    left: 85px;
+}
+
+li:nth-child(3){
+    position: relative;
+    right: 73px;
+}
+.search-icon{
+    position: relative;
+    top: 32px;
+    right: 65px;
+}
+svg{
+    width: 18px;
+}
+.nav-button{
+    width: 110px;
+    height: 28px;
+    border-radius: 10px;
+    font-family: poppins;
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+    background-color: #ffffff;
+    /* color: rgb(110, 109, 109); */
+    color: #808080;
+    cursor: pointer;
+}
+.globe>img{
+    position: relative;
+    bottom: 190px;
+    left: 650px;
+    width: 42px;
+    display: inline;
+
+}
+.main-container>div>img{
+    position: absolute;
+    /* top: 130px; */
+    top: 100px;
+    left: 60px;
+    width: 280px;
+    
+}
+.main-container>.square>img{
+    position: relative;
+    top: 180px;
+    left: 150px;
+    width: 235px;
+
+}
+.main-container-right{
+    width: 700px;
+    height: 420px;
+    position: absolute;
+    top: 130px;
+    right: 0px;
+}
+.main-heading{
+    font-family: Orbitron;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    right: 32px;
+
+}
+.main-description{
+    font-family: poppins;
+    /* color: rgb(110, 109, 109); */
+    color: #808080;
+    font-size: 11px;
+    font-weight: 450;
+    width: 500px;
+    position: relative;
+    top: 90px;
+    left: 60px;
+    text-align: justify;
+    text-align-last: center;
+
+}
+.button-email{
+    position: relative;
+    top: 140px;
+    left: 180px;
+    width: 140px;
+    border-radius: 7px;
+    font-family: Orbitron;
+    background-color: #ffffff;
+    color: #808080;
+    cursor: pointer;
+}
+.button-join{
+    position: relative;
+    top: 140px;
+    left: 185px;
+    width: 90px;
+    border-radius: 7px;
+    font-family: Orbitron;
+    background-color: #110202;
+    color: #ffffff;
+    cursor: pointer;
+}
+.contact-heading{
+    position: relative;
+    top: 195px;
+    left: 260px;
+    width: 100px;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgb(129, 128, 128);
+    cursor: pointer;
+}
+.icons{
+    position: relative;
+    top: 205px;
+    left: 230px;
+}
+.icons>span>img{
+    width: 23px;
+    margin-right: 12px;
+
+}
+.main-container>span:nth-child(2) img {
+    position: relative;
+    left: 180px;
+    top: 150px;
+    width: 35px;
+}
+.main-container>span:nth-child(3) img {
+    position: absolute;
+    top: 120px;
+    right: 110px;
+    width: 50px;
+}
+
+    

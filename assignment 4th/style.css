@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+    /* font-family: sans-serif; */
+    font-family: poppins;
+}
+
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 50px; it is appllied instead of  margin but we can apply it where display=flex. */
+    font-weight: 500;
+}
+
+/* main section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftmain{
+    width: 40%;
+    }
+.rightmain img{
+        margin: 10px;
+    }
+.leftmain h1 {
+    font-size: 67px;
+
+}
+.leftmain p {
+    margin: 5% 0;
+
+}
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3b855b;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.leftmain button:hover{
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.rightmain{
+    width: 60%;
+
+}
